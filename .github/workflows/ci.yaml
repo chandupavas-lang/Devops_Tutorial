@@ -1,9 +1,10 @@
+```yaml id="56mfxv"
 name: Continuous Integration
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   test:
@@ -24,3 +25,4 @@ jobs:
 
       - name: CI Successful
         run: echo "Website Passed Validation"
+```
